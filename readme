@@ -1,1 +1,19 @@
 mathematical analysis + lorentz transformation on raman spectra using gemini 
+
+what would a typical query for a material science application look like?
+Queries, "based on this raman spectra, is it a good sample or not?"
+"What are characteristics of this raman spectra?"
+
+1. peak positition
+2. peak intensity
+3. peak width (fwhm)
+4. line shape
+5. background signal
+6. shifts
+7. number of peaks
+8. relative intensities
+
+
+
+i want to input a raman spectra... just numbers, then it normalizes?
+molecule elucidation - deduce the molecular structure based on experimentally obtained data
