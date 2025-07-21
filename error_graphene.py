@@ -465,7 +465,7 @@ if __name__ == "__main__":
     # Analyze spectrum
     try:
         results = analyzer.analyze_spectrum(
-            filename="raman_sample.txt",  # Replace with your file
+            filename="Gr_YC_2.txt",  # Replace with your file
             seed_positions=seeded_peaks,
             output_dir="output",
             save_all_peaks=True
