@@ -1,0 +1,70 @@
+{
+  "peak_1_center": 173.89,
+  "peak_1_fwhm": 46.06,
+  "peak_1_amplitude": 14066.36,
+  "peak_2_center": 403.51,
+  "peak_2_fwhm": 5.79,
+  "peak_2_amplitude": 54431.73,
+  "peak_3_center": 403.51,
+  "peak_3_fwhm": 5.8,
+  "peak_3_amplitude": 54464.01,
+  "peak_4_center": 403.51,
+  "peak_4_fwhm": 5.8,
+  "peak_4_amplitude": 54494.29,
+  "peak_5_center": 403.47,
+  "peak_5_fwhm": 5.96,
+  "peak_5_amplitude": 55530.56,
+  "peak_6_center": 519.42,
+  "peak_6_fwhm": 4.4,
+  "peak_6_amplitude": 26988.84,
+  "peak_7_center": 756.52,
+  "peak_7_fwhm": 47.11,
+  "peak_7_amplitude": 17230.02,
+  "all_peaks": [
+    {
+      "center_cm": 173.89,
+      "fwhm_cm": 46.06,
+      "amplitude": 14066.36,
+      "classification": "other"
+    },
+    {
+      "center_cm": 403.51,
+      "fwhm_cm": 5.79,
+      "amplitude": 54431.73,
+      "classification": "other"
+    },
+    {
+      "center_cm": 403.51,
+      "fwhm_cm": 5.8,
+      "amplitude": 54464.01,
+      "classification": "other"
+    },
+    {
+      "center_cm": 403.51,
+      "fwhm_cm": 5.8,
+      "amplitude": 54494.29,
+      "classification": "other"
+    },
+    {
+      "center_cm": 403.47,
+      "fwhm_cm": 5.96,
+      "amplitude": 55530.56,
+      "classification": "other"
+    },
+    {
+      "center_cm": 519.42,
+      "fwhm_cm": 4.4,
+      "amplitude": 26988.84,
+      "classification": "other"
+    },
+    {
+      "center_cm": 756.52,
+      "fwhm_cm": 47.11,
+      "amplitude": 17230.02,
+      "classification": "other"
+    }
+  ],
+  "num_total_peaks": 7,
+  "num_graphene_peaks": 0,
+  "source_file": "raman_sample.txt"
+}
