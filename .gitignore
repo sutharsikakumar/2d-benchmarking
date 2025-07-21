@@ -2,3 +2,4 @@
 .env
 sample_data/
 papers/
+.DS_Store
