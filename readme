@@ -1,0 +1,7 @@
+start with pip install -r requirements.txt
+the file structure is as follows
+1. raman_plot.py
+2. raman_denoise.py
+3. raman_gaussian.py
+
+the results are saved in results/ depending on the 2d material. 
