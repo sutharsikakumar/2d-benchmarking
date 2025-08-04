@@ -1,0 +1,46 @@
+{
+  "peaks_analysis": [
+    {
+      "candidates": [
+        {
+          "name": "G band (graphitic carbon)",
+          "rank": 1,
+          "rationale": "The peak position at ~1580 cm\u207b\u00b9 is highly characteristic of the G band, arising from the in-plane stretching vibration of sp\u00b2 carbon atoms in a graphitic lattice.  The observed FWHM of 32.54 cm\u207b\u00b9 suggests a certain degree of disorder or defects within the graphitic structure."
+        },
+        {
+          "name": "D band (disordered carbon)",
+          "rank": 2,
+          "rationale": "While the primary peak is at ~1580 cm\u207b\u00b9, the presence of disorder could also indicate a contribution from the D band, typically located around ~1350 cm\u207b\u00b9. However, the given peak position is closer to the G band, making it less likely to be a pure D band.  It's possible there's a strong G band overlapping a weaker D band, but more data (e.g., a full spectrum) would be needed to confirm this."
+        },
+        {
+          "name": "Adenine ring breathing mode",
+          "rank": 3,
+          "rationale": "Certain ring breathing modes of adenine can appear in this region. However, these are typically weaker and at slightly lower wavenumbers.  Given the high intensity and specific position, graphitic carbon is a more probable assignment."
+        }
+      ],
+      "final": "G band (graphitic carbon)",
+      "position": 1579.93547
+    },
+    {
+      "candidates": [
+        {
+          "name": "2D band of Graphene or Graphite",
+          "rank": 1,
+          "rationale": "The 2D band of graphene/graphite is typically observed around 2650-2750 cm-1 and is highly sensitive to the number of layers.  The observed peak position of 2670.19 cm-1 falls within this range. Its high intensity also supports this assignment, as the 2D band is generally stronger than the G band in few-layer graphene."
+        },
+        {
+          "name": "Nitrile (C\u2261N) stretch",
+          "rank": 2,
+          "rationale": "Nitrile groups exhibit a characteristic Raman peak in the 2200-2300 cm-1 region. However, certain factors like conjugation or strain can shift this peak to higher wavenumbers. While less likely than the 2D band of graphene, the observed peak at 2670.19 cm-1 could potentially arise from a significantly shifted nitrile stretch, especially if the sample context suggests the presence of nitrile-containing compounds."
+        },
+        {
+          "name": "C-H stretching vibrations of alkynes",
+          "rank": 3,
+          "rationale": "Alkynes exhibit C-H stretching vibrations around 3300 cm-1. While 2670.19 cm-1 is significantly lower than this typical range, overtones or combination bands involving C-H stretches could potentially appear at lower wavenumbers. However, these are typically much weaker than the fundamental vibrations, making this assignment less probable given the observed high intensity."
+        }
+      ],
+      "final": "2D band of Graphene or Graphite",
+      "position": 2670.18942
+    }
+  ]
+}
