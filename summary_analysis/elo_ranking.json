@@ -1,0 +1,58 @@
+[
+  {
+    "rank": 1,
+    "model": "gpt41",
+    "elo": 1066.2,
+    "wins": 6,
+    "losses": 1
+  },
+  {
+    "rank": 2,
+    "model": "gemini25pro",
+    "elo": 1059.5,
+    "wins": 5,
+    "losses": 1
+  },
+  {
+    "rank": 3,
+    "model": "gpt41mini",
+    "elo": 1043.9,
+    "wins": 5,
+    "losses": 2
+  },
+  {
+    "rank": 4,
+    "model": "gpt4o",
+    "elo": 1010.7,
+    "wins": 4,
+    "losses": 3
+  },
+  {
+    "rank": 5,
+    "model": "claude_sonnet4",
+    "elo": 961.9,
+    "wins": 2,
+    "losses": 5
+  },
+  {
+    "rank": 6,
+    "model": "claude_haiku35",
+    "elo": 961.4,
+    "wins": 2,
+    "losses": 5
+  },
+  {
+    "rank": 7,
+    "model": "claude_opus4",
+    "elo": 959.2,
+    "wins": 2,
+    "losses": 5
+  },
+  {
+    "rank": 8,
+    "model": "gemini15pro",
+    "elo": 945.0,
+    "wins": 1,
+    "losses": 5
+  }
+]

@@ -19,8 +19,8 @@ load_dotenv()
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 PEAK_FILE = ROOT / "results" / "graphene" / "graphene_1_peaks.json"
-OUT_FILE  = ROOT / "results" / "peaks_analysis_gemini25pro_updated_prompt.json"
-SUMMARY_FILE = ROOT / "results" / "summary_gemini25pro.json"
+OUT_FILE  = ROOT / "results" / "peaks_analysis_gemini15pro_updated_prompt.json"
+SUMMARY_FILE = ROOT / "results" / "summary_gemini15pro.json"
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 if not GOOGLE_API_KEY:
@@ -28,7 +28,7 @@ if not GOOGLE_API_KEY:
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
-GEMINI_MODEL = "gemini-2.5-pro"
+GEMINI_MODEL = "gemini-1.5-pro-latest"
 TEMPERATURE  = 0.3
 MAX_RETRIES  = 5 
 MAX_TOKENS   = 5000

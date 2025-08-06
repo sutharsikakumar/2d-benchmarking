@@ -1,0 +1,99 @@
+{
+  "peaks_analysis": [
+    {
+      "peak_frequency": [
+        1579.94
+      ],
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphite/Graphene",
+          "vibrational_mode": "G band (E2g mode)",
+          "rationale": "The G band arises from the in-plane stretching vibration of sp2 carbon atoms in a graphitic lattice.  The observed frequency is highly characteristic of ordered graphitic materials.",
+          "literature_reference": "Ferrari, A. C., et al. (2006). Raman spectrum of graphene and graphene layers. Physical review letters, 97(18), 187401. DOI: 10.1103/PhysRevLett.97.187401"
+        },
+        {
+          "rank": 2,
+          "compound": "Amorphous Carbon",
+          "vibrational_mode": "G band (tangential stretching mode)",
+          "rationale": "Amorphous carbon also exhibits a G band, although it is typically broader and less intense than in crystalline graphite. The frequency can vary depending on the degree of disorder.",
+          "literature_reference": "Ferrari, A. C., & Robertson, J. (2000). Interpretation of Raman spectra of disordered and amorphous carbon. Physical review B, 61(20), 14095. DOI: 10.1103/PhysRevB.61.14095"
+        },
+        {
+          "rank": 3,
+          "compound": "Polycyclic Aromatic Hydrocarbons (PAHs)",
+          "vibrational_mode": "C=C stretching vibrations",
+          "rationale": "Certain PAHs can exhibit Raman bands in this region due to C=C stretching vibrations. However, the exact frequency and intensity depend on the specific PAH molecule.",
+          "literature_reference": "Socala, K., et al. (2015). Raman and infrared spectroscopy of polycyclic aromatic hydrocarbons adsorbed on cosmic dust analogues. Astronomy & Astrophysics, 582, A22. DOI: 10.1051/0004-6361/201526134"
+        }
+      ],
+      "final_assignment": "Graphite/Graphene",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The observed peak at 1579.94 cm\u207b\u00b9 is highly characteristic of the G band of graphitic materials. The relatively narrow FWHM suggests a high degree of order, favoring crystalline graphite over amorphous carbon.",
+        "key_literature_findings": "Ferrari et al. (2006) provide a comprehensive analysis of the Raman spectrum of graphene and graphite, establishing the G band as a key identifier. Ferrari & Robertson (2000) discuss the G band in disordered and amorphous carbon, noting its broadening and shift in frequency.",
+        "alternative_considerations": "While some PAHs could potentially contribute to a signal in this region, the sharp peak and specific frequency strongly point towards a graphitic origin. Amorphous carbon is less likely due to the expected broader peak shape."
+      },
+      "references": [
+        "Ferrari, A. C., Meyer, J. C., Scardaci, V., Casiraghi, C., Lazzeri, M., Mauri, F., ... & Geim, A. K. (2006). Raman spectrum of graphene and graphene layers. Physical review letters, 97(18), 187401.",
+        "Ferrari, A. C., & Robertson, J. (2000). Interpretation of Raman spectra of disordered and amorphous carbon. Physical review B, 61(20), 14095.",
+        "Socala, K., Szczepanski, J., Vala, M., Stockett, M. H., & Linnartz, H. (2015). Raman and infrared spectroscopy of polycyclic aromatic hydrocarbons adsorbed on cosmic dust analogues. Astronomy & Astrophysics, 582, A22."
+      ],
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094,
+      "peak_index": 0
+    },
+    {
+      "peak_frequency": [
+        2670.19
+      ],
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Acetylene (C\u2082H\u2082)",
+          "vibrational_mode": "C\u2261C stretch",
+          "rationale": "The strong Raman peak at ~2700 cm\u207b\u00b9 is a characteristic signature of the C\u2261C triple bond stretching mode in acetylene. The observed frequency is consistent with gas-phase acetylene.",
+          "literature_reference": "Anderson, A., & Andrews, L. (2008). Infrared Spectra of HC2\u2212 and DC2\u2212 in Solid Argon. The Journal of Physical Chemistry A, 112(44), 11181\u201311185. https://doi.org/10.1021/jp806614m"
+        },
+        {
+          "rank": 2,
+          "compound": "Hydrogen cyanide (HCN)",
+          "vibrational_mode": "C\u2261N stretch",
+          "rationale": "HCN also exhibits a C\u2261N stretching mode in this region, although typically slightly lower.  The observed frequency could be a slightly shifted HCN signal, potentially due to matrix effects or interactions.",
+          "literature_reference": "Smith, A. M., Schallmoser, G., Thoma, A., Wurfel, B. E., & Bondybey, V. E. (1994). Infrared Spectra of HCN and HNC in Solid Neon. The Journal of Chemical Physics, 100(6), 4930\u20134936. https://doi.org/10.1063/1.466231"
+        },
+        {
+          "rank": 3,
+          "compound": "Nitriles (R-C\u2261N)",
+          "vibrational_mode": "C\u2261N stretch",
+          "rationale": "Other nitriles containing the C\u2261N functional group could potentially contribute to a signal in this region. However, the exact frequency and intensity would depend on the specific R group and its influence on the C\u2261N bond.",
+          "literature_reference": "Lin-Vien, D., Colthup, N. B., Fateley, W. G., & Grasselli, J. G. (1991). The Handbook of Infrared and Raman Characteristic Frequencies of Organic Molecules. Academic Press."
+        }
+      ],
+      "final_assignment": "Acetylene (C\u2082H\u2082)",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The observed Raman peak at 2670.19 cm\u207b\u00b9 is highly characteristic of a C\u2261C triple bond stretch.  Given the frequency and intensity, acetylene is the most probable assignment.",
+        "key_literature_findings": "Literature confirms the C\u2261C stretch of acetylene occurs near this frequency. While HCN and other nitriles are possible, their typical frequencies are slightly lower.",
+        "alternative_considerations": "HCN and other nitriles could be considered if other supporting evidence pointed towards their presence. However, without further information, acetylene remains the most plausible explanation."
+      },
+      "references": [
+        "Anderson, A., & Andrews, L. (2008). Infrared Spectra of HC2\u2212 and DC2\u2212 in Solid Argon. The Journal of Physical Chemistry A, 112(44), 11181\u201311185. https://doi.org/10.1021/jp806614m",
+        "Smith, A. M., Schallmoser, G., Thoma, A., Wurfel, B. E., & Bondybey, V. E. (1994). Infrared Spectra of HCN and HNC in Solid Neon. The Journal of Chemical Physics, 100(6), 4930\u20134936. https://doi.org/10.1063/1.466231",
+        "Lin-Vien, D., Colthup, N. B., Fateley, W. G., & Grasselli, J. G. (1991). The Handbook of Infrared and Raman Characteristic Frequencies of Organic Molecules. Academic Press."
+      ],
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538,
+      "peak_index": 1
+    }
+  ],
+  "metadata": {
+    "model": "gemini-1.5-pro-latest",
+    "temperature": 0.3,
+    "total_peaks": 2,
+    "analysis_timestamp": "2025-08-06 12:57:55",
+    "prompt_version": "enhanced_with_literature"
+  }
+}
