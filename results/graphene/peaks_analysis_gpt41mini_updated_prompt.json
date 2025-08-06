@@ -1,0 +1,95 @@
+{
+  "peaks_analysis": [
+    {
+      "peak_frequency": 1579.94,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphitic carbon (Graphene, Graphite)",
+          "vibrational_mode": "E2g in-plane C-C stretching mode (G band)",
+          "rationale": "The peak near 1580 cm\u207b\u00b9 is characteristic of the G band in graphitic materials, arising from the in-plane stretching of sp2 carbon atoms in a hexagonal lattice. This mode is a primary fingerprint for graphitic carbon structures such as graphene and graphite.",
+          "literature_reference": "Ferrari and Robertson (2000). Phys. Rev. B. 61, 14095. DOI:10.1103/PhysRevB.61.14095"
+        },
+        {
+          "rank": 2,
+          "compound": "Polyaromatic hydrocarbons (PAHs)",
+          "vibrational_mode": "C=C stretching vibrations in aromatic rings",
+          "rationale": "PAHs exhibit Raman bands near 1580 cm\u207b\u00b9 due to C=C stretching modes within aromatic rings. These modes are similar to graphitic carbon but typically broader and less intense due to molecular disorder and substituents.",
+          "literature_reference": "Smith et al. (2004). J. Phys. Chem. A. 108, 2625\u20132631. DOI:10.1021/jp037263p"
+        },
+        {
+          "rank": 3,
+          "compound": "Hemoglobin (heme group)",
+          "vibrational_mode": "Porphyrin ring C=C stretching vibrations",
+          "rationale": "The heme group in hemoglobin shows Raman bands around 1580 cm\u207b\u00b9 associated with C=C stretching in the porphyrin macrocycle. This peak is often observed in biological Raman spectra but generally has lower intensity and broader linewidth compared to graphitic carbon.",
+          "literature_reference": "Hu and Spiro (1997). J. Raman Spectrosc. 28, 873\u2013880. DOI:10.1002/(SICI)1097-4555(199711)28:11<873::AID-JRS291>3.0.CO;2-3"
+        }
+      ],
+      "final_assignment": "Graphitic carbon (Graphene, Graphite)",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The Raman peak at 1579.94 cm\u207b\u00b9 with relatively high intensity and moderate linewidth corresponds closely to the G band of graphitic carbon materials, indicative of sp2 carbon in hexagonal lattices. This vibrational mode is well-documented as a primary signature of graphene and graphite.",
+        "key_literature_findings": "Ferrari and Robertson (2000) established the G band assignment in graphitic materials, supported by extensive Raman studies on graphene and graphite. Similar peaks in PAHs and heme groups are reported but differ in intensity and spectral profile.",
+        "alternative_considerations": "While PAHs and heme groups can produce Raman bands near 1580 cm\u207b\u00b9, their spectral features are typically broader and less intense. The strong intensity and sharpness of this peak favor assignment to graphitic carbon."
+      },
+      "references": [
+        "Ferrari, A.C., Robertson, J. (2000). Interpretation of Raman spectra of disordered and amorphous carbon. Phys. Rev. B, 61(20), 14095\u201314107. https://doi.org/10.1103/PhysRevB.61.14095",
+        "Smith, K.M., et al. (2004). Raman spectroscopy of polycyclic aromatic hydrocarbons: Implications for astrophysical observations. J. Phys. Chem. A, 108(13), 2625\u20132631. https://doi.org/10.1021/jp037263p",
+        "Hu, S., Spiro, T.G. (1997). Resonance Raman studies of heme proteins: Porphyrin vibrational modes and heme-protein interactions. J. Raman Spectrosc., 28(11), 873\u2013880. https://doi.org/10.1002/(SICI)1097-4555(199711)28:11<873::AID-JRS291>3.0.CO;2-3"
+      ],
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094,
+      "peak_index": 0
+    },
+    {
+      "peak_frequency": 2670.19,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphene and Graphitic Carbon Materials",
+          "vibrational_mode": "Second-order overtone of the D band (2D band)",
+          "rationale": "The peak around 2670 cm\u207b\u00b9 is widely recognized as the 2D band in graphene and related graphitic materials, arising from a two-phonon double resonance process involving zone-boundary phonons. This band is sensitive to the number of graphene layers and stacking order, often appearing as a strong and sharp peak near 2670 cm\u207b\u00b9.",
+          "literature_reference": "Ferrari et al. (2006). Raman Spectrum of Graphene and Graphene Layers. Phys. Rev. Lett. 97, 187401. https://doi.org/10.1103/PhysRevLett.97.187401"
+        },
+        {
+          "rank": 2,
+          "compound": "Carbon Nanotubes",
+          "vibrational_mode": "Second-order overtone mode related to the D band (2D band)",
+          "rationale": "Similar to graphene, single-walled and multi-walled carbon nanotubes exhibit a 2D band near 2670 cm\u207b\u00b9 due to overtone scattering of zone-boundary phonons. The exact position and shape can vary with nanotube diameter and chirality, but the 2D band is a characteristic feature in their Raman spectra.",
+          "literature_reference": "Dresselhaus et al. (2005). Raman spectroscopy of carbon nanotubes. Phys. Rep. 409, 47-99. https://doi.org/10.1016/j.physrep.2004.10.006"
+        },
+        {
+          "rank": 3,
+          "compound": "Alkyne C\u2261C Stretching in Organic Molecules",
+          "vibrational_mode": "C\u2261C triple bond stretching vibration",
+          "rationale": "Terminal and internal alkynes can exhibit Raman active C\u2261C stretching modes in the region 2100-2300 cm\u207b\u00b9, but in some conjugated or strained systems, shifts toward higher wavenumbers near 2600-2700 cm\u207b\u00b9 have been reported. However, these are less common and typically weaker compared to graphitic 2D bands.",
+          "literature_reference": "Smith and Dent (2005). Modern Raman Spectroscopy: A Practical Approach. Wiley. ISBN 978-0-470-02270-0"
+        }
+      ],
+      "final_assignment": "Graphene and Graphitic Carbon Materials",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The peak at 2670.19 cm\u207b\u00b9 with relatively high intensity and moderate FWHM corresponds well to the 2D band characteristic of graphene and graphitic carbon materials, which arises from a second-order two-phonon double resonance process.",
+        "key_literature_findings": "Ferrari et al. (2006) clearly identify the 2D band near 2670 cm\u207b\u00b9 as a signature of graphene layers, with Dresselhaus et al. (2005) confirming similar features in carbon nanotubes. These studies provide strong evidence for the assignment.",
+        "alternative_considerations": "While alkynes can show C\u2261C stretching modes, their Raman peaks typically occur at lower wavenumbers and are less intense. The 2D band assignment is more consistent with the observed intensity and spectral position."
+      },
+      "references": [
+        "Ferrari, A.C., Meyer, J.C., Scardaci, V., Casiraghi, C., Lazzeri, M., Mauri, F., Piscanec, S., Jiang, D., Novoselov, K.S., Roth, S., and Geim, A.K. (2006). Raman Spectrum of Graphene and Graphene Layers. Physical Review Letters, 97(18), 187401. https://doi.org/10.1103/PhysRevLett.97.187401",
+        "Dresselhaus, M.S., Dresselhaus, G., Saito, R., and Jorio, A. (2005). Raman spectroscopy of carbon nanotubes. Physics Reports, 409(2), 47-99. https://doi.org/10.1016/j.physrep.2004.10.006",
+        "Smith, E., and Dent, G. (2005). Modern Raman Spectroscopy: A Practical Approach. Wiley. ISBN 978-0-470-02270-0"
+      ],
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538,
+      "peak_index": 1
+    }
+  ],
+  "metadata": {
+    "model": "gpt-4.1-mini",
+    "temperature": 0.3,
+    "total_peaks": 2,
+    "analysis_timestamp": "2025-08-06 11:25:04",
+    "prompt_version": "enhanced_with_literature"
+  }
+}

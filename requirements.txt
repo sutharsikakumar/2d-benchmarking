@@ -7,3 +7,4 @@ pymupdf>=1.23,<2.0
 requests>=2.31,<3.0
 google-generativeai
 serpapi
+anthropic

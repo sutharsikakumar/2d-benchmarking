@@ -1,0 +1,95 @@
+{
+  "peaks_analysis": [
+    {
+      "peak_frequency": 1579.94,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphite",
+          "vibrational_mode": "E2g mode (G band)",
+          "rationale": "The peak at ~1580 cm\u207b\u00b9 is characteristic of the G band in graphite, corresponding to the E2g phonon at the Brillouin zone center, indicative of sp2 hybridized carbon atoms.",
+          "literature_reference": "Ferrari, A. C., & Robertson, J. (2000). Physical Review B, 61(20), 14095-14107. DOI:10.1103/PhysRevB.61.14095"
+        },
+        {
+          "rank": 2,
+          "compound": "Carbon Nanotubes",
+          "vibrational_mode": "Tangential mode (G band)",
+          "rationale": "Carbon nanotubes exhibit a G band around this frequency due to tangential C-C stretching vibrations, similar to graphite, but with slight shifts depending on tube diameter and chirality.",
+          "literature_reference": "Dresselhaus, M. S., Dresselhaus, G., & Saito, R. (1998). Carbon, 36(5-6), 725-730. DOI:10.1016/S0008-6223(98)00062-8"
+        },
+        {
+          "rank": 3,
+          "compound": "Polycyclic Aromatic Hydrocarbons (PAHs)",
+          "vibrational_mode": "C-C stretching",
+          "rationale": "PAHs can show Raman peaks around 1580 cm\u207b\u00b9 due to C-C stretching modes in the aromatic rings, although the peak is typically less intense compared to graphite.",
+          "literature_reference": "Sadezky, A., Muckenhuber, H., Grothe, H., Niessner, R., & P\u00f6schl, U. (2005). Carbon, 43(8), 1731-1742. DOI:10.1016/j.carbon.2005.02.018"
+        }
+      ],
+      "final_assignment": "Graphite",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The Raman peak at 1579.94 cm\u207b\u00b9 is most likely the G band of graphite, a common feature in sp2 carbon materials. The intensity and narrow FWHM support this assignment.",
+        "key_literature_findings": "Ferrari and Robertson (2000) provide a comprehensive analysis of the G band in graphite. Carbon nanotubes also show similar features, but with variations due to structural differences.",
+        "alternative_considerations": "While carbon nanotubes and PAHs can show similar peaks, the specific characteristics of the peak, such as intensity and FWHM, align more closely with graphite."
+      },
+      "references": [
+        "Ferrari, A. C., & Robertson, J. (2000). Physical Review B, 61(20), 14095-14107. DOI:10.1103/PhysRevB.61.14095",
+        "Dresselhaus, M. S., Dresselhaus, G., & Saito, R. (1998). Carbon, 36(5-6), 725-730. DOI:10.1016/S0008-6223(98)00062-8",
+        "Sadezky, A., Muckenhuber, H., Grothe, H., Niessner, R., & P\u00f6schl, U. (2005). Carbon, 43(8), 1731-1742. DOI:10.1016/j.carbon.2005.02.018"
+      ],
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094,
+      "peak_index": 0
+    },
+    {
+      "peak_frequency": 2670.19,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphite",
+          "vibrational_mode": "2D band (second order of the D band)",
+          "rationale": "The 2D band in graphite is a second-order overtone of the D band, commonly observed around 2700 cm\u207b\u00b9. It is a prominent feature in the Raman spectrum of graphite and graphene materials.",
+          "literature_reference": "Ferrari, A.C., & Robertson, J. (2000). Physical Review B. DOI: 10.1103/PhysRevB.61.14095"
+        },
+        {
+          "rank": 2,
+          "compound": "Carbon Nanotubes",
+          "vibrational_mode": "G' band (second order of the D band)",
+          "rationale": "Similar to graphite, carbon nanotubes exhibit a G' band around 2670 cm\u207b\u00b9, which is a second-order process related to the D band. This peak is indicative of the presence of sp2 hybridized carbon structures.",
+          "literature_reference": "Dresselhaus, M.S., et al. (2005). Physics Reports. DOI: 10.1016/j.physrep.2005.03.003"
+        },
+        {
+          "rank": 3,
+          "compound": "Polycyclic Aromatic Hydrocarbons (PAHs)",
+          "vibrational_mode": "C-H stretching overtone",
+          "rationale": "PAHs can exhibit overtones of C-H stretching modes in the high wavenumber region. However, the intensity and position are less consistent compared to graphite-related materials.",
+          "literature_reference": "Hudgins, D.M., & Allamandola, L.J. (1999). The Astrophysical Journal. DOI: 10.1086/306965"
+        }
+      ],
+      "final_assignment": "Graphite",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The peak at 2670.19 cm\u207b\u00b9 is characteristic of the 2D band in graphite, a common feature in carbon-based materials with sp2 hybridization.",
+        "key_literature_findings": "The literature consistently identifies the 2D band in graphite and graphene materials around this wavenumber, with strong intensity and a relatively narrow FWHM.",
+        "alternative_considerations": "While carbon nanotubes and PAHs can exhibit similar features, the prominence and specificity of the 2D band in graphite make it the most likely assignment."
+      },
+      "references": [
+        "Ferrari, A.C., & Robertson, J. (2000). Physical Review B. DOI: 10.1103/PhysRevB.61.14095",
+        "Dresselhaus, M.S., et al. (2005). Physics Reports. DOI: 10.1016/j.physrep.2005.03.003",
+        "Hudgins, D.M., & Allamandola, L.J. (1999). The Astrophysical Journal. DOI: 10.1086/306965"
+      ],
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538,
+      "peak_index": 1
+    }
+  ],
+  "metadata": {
+    "model": "gpt-4o",
+    "temperature": 0.3,
+    "total_peaks": 2,
+    "analysis_timestamp": "2025-08-06 11:17:41",
+    "prompt_version": "enhanced_with_literature"
+  }
+}

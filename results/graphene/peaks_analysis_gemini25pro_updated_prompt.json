@@ -1,0 +1,96 @@
+{
+  "peaks_analysis": [
+    {
+      "peak_frequency": 1579.94,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphitic Carbon (e.g., Graphene, Graphite, Carbon Nanotubes)",
+          "vibrational_mode": "G-band (E\u2082g symmetry)",
+          "rationale": "This peak is the primary in-plane vibrational mode involving the sp\u00b2 C-C bond stretching in graphitic materials. Its position at ~1580 cm\u207b\u00b9 is the quintessential signature of a hexagonal carbon lattice. The broad full-width at half-maximum (FWHM) of ~32 cm\u207b\u00b9 suggests a disordered or nanocrystalline structure, such as nanocrystalline graphite or reduced graphene oxide, rather than highly crystalline graphite which has a much sharper G-band.",
+          "literature_reference": "Ferrari, A. C., & Robertson, J. (2000). Interpretation of Raman spectra of disordered and amorphous carbon. Physical Review B."
+        },
+        {
+          "rank": 2,
+          "compound": "Porphyrin (e.g., Heme group in Hemoglobin)",
+          "vibrational_mode": "C\u03b1=C\u03b2 and C\u03b2=C\u03b2 symmetric stretching (\u03bd\u2082 mode)",
+          "rationale": "Porphyrins, which are large conjugated macrocycles, exhibit very strong resonance Raman peaks. The band near 1580 cm\u207b\u00b9 is a well-known, spin-state sensitive marker (\u03bd\u2082) arising from the C=C stretching vibrations within the pyrrole rings of the porphyrin core. This is a common peak observed in biological samples containing heme proteins.",
+          "literature_reference": "Wood, B. R., et al. (2001). Raman excitation wavelength investigation of single red blood cells. Journal of Raman Spectroscopy."
+        },
+        {
+          "rank": 3,
+          "compound": "Poly(p-phenylene vinylene) (PPV)",
+          "vibrational_mode": "C=C stretching of the phenyl ring",
+          "rationale": "Conjugated polymers like PPV have extensive sp\u00b2 carbon networks, leading to strong Raman signals. The peak around 1582 cm\u207b\u00b9 in PPV is assigned to the stretching vibration of the C=C bonds within the phenylene rings of the polymer backbone. While a valid assignment, it is less common than graphitic carbon without other corroborating polymer peaks.",
+          "literature_reference": "Tian, B., & Zerbi, G. (1990). Lattice-dynamics and vibrational-spectra of poly(p-phenylenevinylene). The Journal of Chemical Physics."
+        }
+      ],
+      "final_assignment": "Graphitic Carbon",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The peak at 1579.94 cm\u207b\u00b9 is strongly characteristic of the G-band of sp\u00b2-hybridized carbon. This assignment is based on its specific frequency, which is a hallmark of graphitic materials like graphene and graphite. The significant peak broadening (FWHM \u2248 32.5 cm\u207b\u00b9) is a key diagnostic feature indicating the presence of structural disorder or nanocrystallinity, making materials like reduced graphene oxide (rGO) or nanocrystalline graphite highly probable sources.",
+        "key_literature_findings": "The assignment is robustly supported by decades of research. The seminal work by Ferrari & Robertson (2000) provides a framework for interpreting Raman spectra of carbon materials, definitively assigning the ~1580 cm\u207b\u00b9 peak to the E\u2082g mode and linking its FWHM to disorder. Furthermore, spectroscopic databases like RRUFF (e.g., Graphite R040012) consistently show this peak as the primary feature of graphite.",
+        "alternative_considerations": "Alternative assignments include C=C stretching modes in other highly conjugated systems. Porphyrins, found in heme, have a strong \u03bd\u2082 mode near this frequency, as documented by Wood et al. (2001). Conjugated polymers like PPV also show a phenyl ring stretch in this region. However, these assignments were ranked lower because the G-band of carbon is one of the most universally recognized and intense peaks in Raman spectroscopy, making it the most parsimonious and probable assignment in the absence of further spectral context."
+      },
+      "references": [
+        "Ferrari, A. C., & Robertson, J. (2000). Interpretation of Raman spectra of disordered and amorphous carbon. Physical Review B, 61(20), 14095\u201314107. https://doi.org/10.1103/PhysRevB.61.14095",
+        "Wood, B. R., Tait, B., & McNaughton, D. (2001). Raman excitation wavelength investigation of single red blood cells. Journal of Raman Spectroscopy, 32(11), 913-919. https://doi.org/10.1002/jrs.785",
+        "Tian, B., & Zerbi, G. (1990). Lattice-dynamics and vibrational-spectra of poly(p-phenylenevinylene). The Journal of Chemical Physics, 92(6), 3886-3891. https://doi.org/10.1063/1.457794",
+        "RRUFF Database, Graphite, ID: R040012. https://rruff.info/R040012"
+      ],
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094,
+      "peak_index": 0
+    },
+    {
+      "peak_frequency": 2670.19,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Few-layer Graphene",
+          "vibrational_mode": "2D (or G') band; second-order overtone from a two-phonon double resonance process",
+          "rationale": "The peak position near 2670 cm\u207b\u00b9 is the hallmark of the 2D band in graphene. The FWHM of ~50 cm\u207b\u00b9 is highly characteristic of bilayer or few-layer graphene. This band, which originates from a double resonance process involving two in-plane transverse optical (iTO) phonons, is extremely sensitive to the number of stacked layers. Single-layer graphene has a sharper (~30 cm\u207b\u00b9) peak, while bulk graphite has a broader, up-shifted, and split peak.",
+          "literature_reference": "Ferrari, A. C. et al. (2006). Physical Review Letters. DOI: 10.1103/PhysRevLett.97.187401"
+        },
+        {
+          "rank": 2,
+          "compound": "Disordered or Nanocrystalline Graphite",
+          "vibrational_mode": "2D band (unresolved 2D1 and 2D2 components)",
+          "rationale": "Graphite also possesses a strong 2D band, but in its bulk crystalline form, it is centered at a higher wavenumber (~2720 cm\u207b\u00b9) and is composed of two distinct sub-peaks. In disordered or nanocrystalline forms, these peaks broaden and can merge into a single feature. While possible, the observed position at 2670 cm\u207b\u00b9 is lower than typical for most forms of graphite.",
+          "literature_reference": "Reich, S. & Thomsen, C. (2004). Philosophical Transactions of the Royal Society A. DOI: 10.1098/rsta.2004.1454"
+        },
+        {
+          "rank": 3,
+          "compound": "Single-Walled Carbon Nanotubes (SWCNTs)",
+          "vibrational_mode": "G' (or 2D) band",
+          "rationale": "As rolled-up graphene sheets, carbon nanotubes exhibit a similar G' band from a double resonance process. The exact position is dependent on the laser excitation energy and the nanotube's electronic structure (diameter and chirality). While this is a plausible assignment for an sp\u00b2 carbon material, 'few-layer graphene' is a more direct interpretation of the peak shape and position without additional evidence (e.g., Radial Breathing Modes) pointing specifically to nanotubes.",
+          "literature_reference": "Jorio, A. et al. (2001). Physical Review Letters. DOI: 10.1103/PhysRevLett.86.1118"
+        }
+      ],
+      "final_assignment": "Few-layer Graphene",
+      "confidence_level": "High",
+      "summary": {
+        "analysis_overview": "The peak observed at 2670.19 cm\u207b\u00b9 is unequivocally identified as the 2D (or G') band of an sp\u00b2-hybridized carbon material. This is a second-order Raman feature, not a fundamental vibration. The combination of its peak position, strong intensity, and Full Width at Half Maximum (FWHM) of approximately 50 cm\u207b\u00b9 provides a robust fingerprint for few-layer graphene, most likely bilayer graphene.",
+        "key_literature_findings": "The foundational work by Ferrari et al. (2006) demonstrated that the shape and FWHM of the 2D band are powerful, non-destructive tools for determining the number of layers in a graphene sample. The observed peak profile, a single symmetric Lorentzian/Gaussian with a FWHM of ~50 cm\u207b\u00b9, aligns perfectly with the established spectral signature for bilayer graphene, distinguishing it from the sharper peak of monolayer graphene and the split peak of bulk graphite.",
+        "alternative_considerations": "Graphite was considered a secondary possibility. However, its 2D band is typically found at a higher frequency (~2720 cm\u207b\u00b9) and is clearly split into two components (2D1 and 2D2), which is inconsistent with the observed single peak. Carbon nanotubes also exhibit a G' band in this region, but this assignment is less likely without other characteristic CNT peaks (like the RBM) and because the observed peak shape is so archetypal of 2D few-layer graphene."
+      },
+      "references": [
+        "Ferrari, A. C., Meyer, J. C., Scardaci, V., Casiraghi, C., Lazzeri, M., Mauri, F., ... & Novoselov, K. S. (2006). Raman Spectrum of Graphene and Graphene Layers. *Physical Review Letters*, 97(18), 187401. DOI: 10.1103/PhysRevLett.97.187401",
+        "Reich, S., & Thomsen, C. (2004). Raman spectroscopy of graphite. *Philosophical Transactions of the Royal Society of London. Series A: Mathematical, Physical and Engineering Sciences*, 362(1824), 2271-2288. DOI: 10.1098/rsta.2004.1454",
+        "Jorio, A., Saito, R., Hafner, J. H., Lieber, C. M., Hunter, M., McClure, T., ... & Dresselhaus, M. S. (2001). Structural (n, m) determination of isolated single-wall carbon nanotubes by resonant Raman scattering. *Physical Review Letters*, 86(6), 1118-1121. DOI: 10.1103/PhysRevLett.86.1118"
+      ],
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538,
+      "peak_index": 1
+    }
+  ],
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "temperature": 0.3,
+    "total_peaks": 2,
+    "analysis_timestamp": "2025-08-06 12:13:17",
+    "prompt_version": "enhanced_with_literature"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "peaks_analysis": [
+    {
+      "candidates": [
+        {
+          "name": "G band in graphene",
+          "rank": 1,
+          "rationale": "1579.94 cm\u207b\u00b9 corresponds to the G band in graphene, which is a common Raman-active mode for this material."
+        },
+        {
+          "name": "C=C stretching in aromatic ring",
+          "rank": 2,
+          "rationale": "1579.94 cm\u207b\u00b9 could correspond to the C=C stretching mode in an aromatic ring present in various organic compounds."
+        },
+        {
+          "name": "Si-C stretching in silicon carbide",
+          "rank": 3,
+          "rationale": "1579.94 cm\u207b\u00b9 might be attributed to the Si-C stretching mode in silicon carbide, although less common than the previous assignments."
+        }
+      ],
+      "final": "G band in graphene",
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094,
+      "peak_index": 0
+    },
+    {
+      "candidates": [
+        {
+          "name": "C-H stretching vibration in aldehydes/ketones",
+          "rank": 1,
+          "rationale": "The wavenumber and intensity are consistent with C-H stretching vibrations in aldehydes/ketones."
+        },
+        {
+          "name": "C-H stretching vibration in alcohols",
+          "rank": 2,
+          "rationale": "C-H stretching vibrations in alcohols can also occur in this region, but it is less common than in aldehydes/ketones."
+        },
+        {
+          "name": "O-H stretching vibration in carboxylic acids",
+          "rank": 3,
+          "rationale": "While O-H stretching vibrations in carboxylic acids can appear in this region, the intensity and FWHM are not typical for this assignment."
+        }
+      ],
+      "final": "C-H stretching vibration in aldehydes/ketones",
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538,
+      "peak_index": 1
+    }
+  ],
+  "metadata": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0.3,
+    "total_peaks": 2,
+    "analysis_timestamp": "2025-08-04 22:31:38"
+  }
+}

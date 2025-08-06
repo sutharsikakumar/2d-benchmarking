@@ -1,0 +1,30 @@
+{
+  "identified_material": "Graphite/Graphene",
+  "confidence": "high",
+  "supporting_peaks": 1,
+  "total_analyzed_peaks": 2,
+  "agreement_percentage": 50.0,
+  "detailed_analysis": {
+    "primary_assignments": {
+      "Graphite/Graphene": 1,
+      "Graphite (Graphene-derived materials)": 1
+    },
+    "all_detected_compounds": {
+      "Graphite/Graphene": 1,
+      "Benzene": 1,
+      "Polyaromatic Hydrocarbons (e.g., Naphthalene)": 1,
+      "Graphite (Graphene-derived materials)": 1,
+      "Carbon Nanotubes (CNTs)": 1,
+      "Polycyclic Aromatic Hydrocarbons (PAHs)": 1
+    },
+    "confidence_distribution": {
+      "high": 2
+    }
+  },
+  "summary_text": "Based on Raman spectroscopic analysis of 2 peaks, the sample is most likely **Graphite/Graphene** with moderate confidence. 1 out of 2 peaks (50.0%) support this identification. Alternative possibilities include: Graphite (Graphene-derived materials) (1 peaks).",
+  "analysis_metadata": {
+    "timestamp": "2025-08-06 11:23:15",
+    "successful_peak_analyses": 2,
+    "failed_analyses": 0
+  }
+}

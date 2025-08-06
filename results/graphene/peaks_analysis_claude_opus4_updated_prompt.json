@@ -1,0 +1,95 @@
+{
+  "peaks_analysis": [
+    {
+      "peak_frequency": 1579.94,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphene/Graphitic carbon",
+          "vibrational_mode": "G band - in-plane C-C stretching (E2g symmetry)",
+          "rationale": "The peak at ~1580 cm\u207b\u00b9 is characteristic of the G band in graphitic materials, arising from the in-plane vibration of sp\u00b2 carbon atoms. The relatively broad FWHM (~32 cm\u207b\u00b9) suggests some disorder or defects in the graphitic structure.",
+          "literature_reference": "Ferrari, A.C. & Basko, D.M. (2013). Nature Nanotechnology, 8, 235-246. DOI: 10.1038/nnano.2013.46"
+        },
+        {
+          "rank": 2,
+          "compound": "Carbon nanotubes (CNTs)",
+          "vibrational_mode": "G+ band - longitudinal optical (LO) phonon mode",
+          "rationale": "Multi-walled or single-walled carbon nanotubes exhibit a G band around 1580 cm\u207b\u00b9 from tangential C-C stretching modes. The peak position and width are consistent with CNT samples with some structural heterogeneity.",
+          "literature_reference": "Dresselhaus, M.S. et al. (2005). Physics Reports, 409, 47-99. DOI: 10.1016/j.physrep.2004.10.006"
+        },
+        {
+          "rank": 3,
+          "compound": "Polycyclic aromatic hydrocarbons (PAHs)",
+          "vibrational_mode": "Aromatic C=C ring stretching",
+          "rationale": "Large PAH molecules show strong Raman bands around 1580-1600 cm\u207b\u00b9 due to aromatic ring quadrant stretching. The exact position depends on the specific PAH structure and degree of conjugation.",
+          "literature_reference": "Maltseva, E. et al. (2015). Astrophysical Journal, 814, 23. DOI: 10.1088/0004-637X/814/1/23"
+        }
+      ],
+      "final_assignment": "Graphene/Graphitic carbon",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The peak at 1579.94 cm\u207b\u00b9 with moderate intensity and FWHM of 32.54 cm\u207b\u00b9 is highly characteristic of the G band in graphitic carbon materials. This assignment is strongly supported by extensive literature on carbon Raman spectroscopy.",
+        "key_literature_findings": "Ferrari and Basko (2013) established that pristine graphene shows a G peak at exactly 1580 cm\u207b\u00b9, with peak broadening indicating defects or edge effects. The observed FWHM suggests either few-layer graphene or graphite with some structural disorder.",
+        "alternative_considerations": "While carbon nanotubes (rank 2) show similar spectral features, they typically exhibit G band splitting into G+ and G- components. PAHs (rank 3) could produce peaks in this region but usually show additional characteristic peaks at other frequencies that would aid identification."
+      },
+      "references": [
+        "Ferrari, A.C. & Basko, D.M. (2013). Raman spectroscopy as a versatile tool for studying the properties of graphene. Nature Nanotechnology, 8, 235-246.",
+        "Dresselhaus, M.S., Dresselhaus, G., Saito, R., & Jorio, A. (2005). Raman spectroscopy of carbon nanotubes. Physics Reports, 409, 47-99.",
+        "Maltseva, E., Ysard, N., Mulas, G., Joblin, C., & J\u00e4ger, C. (2015). Photoluminescence of polycyclic aromatic hydrocarbons in the near-infrared. Astrophysical Journal, 814, 23."
+      ],
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094,
+      "peak_index": 0
+    },
+    {
+      "peak_frequency": 2670.19,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Sulfur-containing compounds (R-SH thiol)",
+          "vibrational_mode": "S-H stretching vibration",
+          "rationale": "The S-H stretching mode typically appears as a weak to medium intensity band in the 2550-2600 cm\u207b\u00b9 region. The observed peak at 2670 cm\u207b\u00b9 is slightly higher but could indicate S-H stretching in specific molecular environments or hydrogen-bonded thiols",
+          "literature_reference": "Socrates, G. (2004). Infrared and Raman Characteristic Group Frequencies, 3rd Edition. Wiley. pp. 120-122"
+        },
+        {
+          "rank": 2,
+          "compound": "Deuterated compounds (C-D or O-D)",
+          "vibrational_mode": "C-D stretching or O-D stretching vibration",
+          "rationale": "C-D stretching vibrations typically occur in the 2050-2300 cm\u207b\u00b9 range, while O-D stretching can appear around 2400-2700 cm\u207b\u00b9. The peak at 2670 cm\u207b\u00b9 could correspond to O-D stretching in deuterated alcohols or water",
+          "literature_reference": "Lin-Vien, D. et al. (1991). The Handbook of Infrared and Raman Characteristic Frequencies of Organic Molecules. Academic Press. pp. 9-15"
+        },
+        {
+          "rank": 3,
+          "compound": "Boron hydride compounds (B-H)",
+          "vibrational_mode": "B-H stretching vibration",
+          "rationale": "B-H stretching modes in boron hydrides and boranes typically appear in the 2300-2650 cm\u207b\u00b9 region. Terminal B-H bonds can show stretching frequencies around 2500-2640 cm\u207b\u00b9",
+          "literature_reference": "Nakamoto, K. (2009). Infrared and Raman Spectra of Inorganic and Coordination Compounds, 6th Edition. Wiley. pp. 149-151"
+        }
+      ],
+      "final_assignment": "Sulfur-containing compounds (R-SH thiol)",
+      "confidence_level": "medium",
+      "summary": {
+        "analysis_overview": "The peak at 2670.19 cm\u207b\u00b9 with moderate intensity and FWHM of 49.73 cm\u207b\u00b9 most likely corresponds to S-H stretching vibration in thiol compounds, though the frequency is slightly elevated from the typical range. The relatively broad peak width suggests possible hydrogen bonding or environmental effects.",
+        "key_literature_findings": "Literature consistently places S-H stretching in the 2550-2600 cm\u207b\u00b9 range for free thiols, with hydrogen-bonded or complexed thiols showing shifts to higher frequencies. The moderate intensity and peak width are consistent with S-H stretching characteristics.",
+        "alternative_considerations": "Deuterated compounds (O-D stretching) remain a possibility given the frequency range, particularly if D\u2082O or deuterated solvents are present. B-H stretching is less likely given the specific frequency and typical intensity patterns of boron hydrides."
+      },
+      "references": [
+        "Socrates, G. (2004). Infrared and Raman Characteristic Group Frequencies: Tables and Charts, 3rd Edition. John Wiley & Sons, Chichester.",
+        "Lin-Vien, D., Colthup, N.B., Fateley, W.G., Grasselli, J.G. (1991). The Handbook of Infrared and Raman Characteristic Frequencies of Organic Molecules. Academic Press, San Diego.",
+        "Nakamoto, K. (2009). Infrared and Raman Spectra of Inorganic and Coordination Compounds, Part A: Theory and Applications in Inorganic Chemistry, 6th Edition. John Wiley & Sons, Hoboken."
+      ],
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538,
+      "peak_index": 1
+    }
+  ],
+  "metadata": {
+    "model": "claude-opus-4-1-20250805",
+    "temperature": 0.3,
+    "total_peaks": 2,
+    "analysis_timestamp": "2025-08-06 12:29:15",
+    "prompt_version": "enhanced_with_literature"
+  }
+}

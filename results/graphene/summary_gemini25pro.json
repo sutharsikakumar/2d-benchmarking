@@ -1,0 +1,31 @@
+{
+  "identified_material": "Graphitic Carbon",
+  "confidence": "medium",
+  "supporting_peaks": 1,
+  "total_analyzed_peaks": 2,
+  "agreement_percentage": 50.0,
+  "detailed_analysis": {
+    "primary_assignments": {
+      "Graphitic Carbon": 1,
+      "Few-layer Graphene": 1
+    },
+    "all_detected_compounds": {
+      "Graphitic Carbon (e.g., Graphene, Graphite, Carbon Nanotubes)": 1,
+      "Porphyrin (e.g., Heme group in Hemoglobin)": 1,
+      "Poly(p-phenylene vinylene) (PPV)": 1,
+      "Few-layer Graphene": 1,
+      "Disordered or Nanocrystalline Graphite": 1,
+      "Single-Walled Carbon Nanotubes (SWCNTs)": 1
+    },
+    "confidence_distribution": {
+      "high": 1,
+      "High": 1
+    }
+  },
+  "summary_text": "Based on Raman spectroscopic analysis of 2 peaks, the sample is most likely **Graphitic Carbon** with moderate confidence. 1 out of 2 peaks (50.0%) support this identification. Alternative possibilities include: Few-layer Graphene (1 peaks).",
+  "analysis_metadata": {
+    "timestamp": "2025-08-06 12:13:17",
+    "successful_peak_analyses": 2,
+    "failed_analyses": 0
+  }
+}

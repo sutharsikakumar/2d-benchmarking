@@ -1,0 +1,26 @@
+{
+  "identified_material": "Graphite",
+  "confidence": "high",
+  "supporting_peaks": 2,
+  "total_analyzed_peaks": 2,
+  "agreement_percentage": 100.0,
+  "detailed_analysis": {
+    "primary_assignments": {
+      "Graphite": 2
+    },
+    "all_detected_compounds": {
+      "Graphite": 2,
+      "Carbon Nanotubes": 2,
+      "Polycyclic Aromatic Hydrocarbons (PAHs)": 2
+    },
+    "confidence_distribution": {
+      "high": 2
+    }
+  },
+  "summary_text": "Based on Raman spectroscopic analysis of 2 peaks, the sample is identified as **Graphite** with high confidence. 2 out of 2 peaks (100.0%) strongly support this identification.",
+  "analysis_metadata": {
+    "timestamp": "2025-08-06 11:17:41",
+    "successful_peak_analyses": 2,
+    "failed_analyses": 0
+  }
+}

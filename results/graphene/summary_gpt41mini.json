@@ -1,0 +1,30 @@
+{
+  "identified_material": "Graphitic carbon (Graphene, Graphite)",
+  "confidence": "high",
+  "supporting_peaks": 1,
+  "total_analyzed_peaks": 2,
+  "agreement_percentage": 50.0,
+  "detailed_analysis": {
+    "primary_assignments": {
+      "Graphitic carbon (Graphene, Graphite)": 1,
+      "Graphene and Graphitic Carbon Materials": 1
+    },
+    "all_detected_compounds": {
+      "Graphitic carbon (Graphene, Graphite)": 1,
+      "Polyaromatic hydrocarbons (PAHs)": 1,
+      "Hemoglobin (heme group)": 1,
+      "Graphene and Graphitic Carbon Materials": 1,
+      "Carbon Nanotubes": 1,
+      "Alkyne C\u2261C Stretching in Organic Molecules": 1
+    },
+    "confidence_distribution": {
+      "high": 2
+    }
+  },
+  "summary_text": "Based on Raman spectroscopic analysis of 2 peaks, the sample is most likely **Graphitic carbon (Graphene, Graphite)** with moderate confidence. 1 out of 2 peaks (50.0%) support this identification. Alternative possibilities include: Graphene and Graphitic Carbon Materials (1 peaks).",
+  "analysis_metadata": {
+    "timestamp": "2025-08-06 11:25:04",
+    "successful_peak_analyses": 2,
+    "failed_analyses": 0
+  }
+}

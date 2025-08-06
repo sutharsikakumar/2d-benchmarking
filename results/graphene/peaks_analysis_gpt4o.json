@@ -1,0 +1,50 @@
+{
+  "peaks_analysis": [
+    {
+      "candidates": [
+        {
+          "name": "G band of Graphite/Graphene",
+          "rank": 1,
+          "rationale": "The peak around 1579 cm\u207b\u00b9 is characteristic of the G band in graphite and graphene materials, arising from the E2g phonon at the Brillouin zone center. This band is a result of the in-plane vibration of sp2-bonded carbon atoms and is commonly observed in carbon-based materials."
+        },
+        {
+          "name": "C=C Stretching in Aromatic Compounds",
+          "rank": 2,
+          "rationale": "The 1579 cm\u207b\u00b9 peak can also be attributed to the C=C stretching mode in aromatic compounds, such as benzene derivatives. This mode is typically strong in intensity and falls within the range of 1500-1600 cm\u207b\u00b9, making it a plausible assignment for aromatic systems."
+        },
+        {
+          "name": "Amide II Band in Proteins",
+          "rank": 3,
+          "rationale": "The Amide II band, typically found around 1550-1570 cm\u207b\u00b9, could potentially explain this peak if the sample is a protein or peptide. However, the position is slightly higher than usual, making this assignment less likely compared to the other candidates."
+        }
+      ],
+      "final": "G band of Graphite/Graphene",
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094
+    },
+    {
+      "candidates": [
+        {
+          "name": "G' band of graphite",
+          "rank": 1,
+          "rationale": "The peak around 2670 cm\u207b\u00b9 is commonly associated with the G' band (also known as the 2D band) in graphite and graphene materials. This band results from the second order of zone boundary phonons and is a characteristic feature of sp2 carbon materials, particularly graphene."
+        },
+        {
+          "name": "C-H stretching in aliphatic hydrocarbons",
+          "rank": 2,
+          "rationale": "C-H stretching vibrations in aliphatic hydrocarbons can appear in the range of 2800\u20133000 cm\u207b\u00b9. Although 2670 cm\u207b\u00b9 is slightly lower, it could potentially correspond to a C-H stretching mode in a specific molecular environment or due to a shift caused by molecular interactions."
+        },
+        {
+          "name": "Overtone or combination band in organic compounds",
+          "rank": 3,
+          "rationale": "Overtones or combination bands in organic compounds can occasionally appear in this region. These are typically weaker and less common but could explain the presence of a peak in this range if the sample contains complex organic structures."
+        }
+      ],
+      "final": "G' band of graphite",
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538
+    }
+  ]
+}

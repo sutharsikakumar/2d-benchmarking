@@ -1,0 +1,95 @@
+{
+  "peaks_analysis": [
+    {
+      "peak_frequency": 1579.94,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphitic carbon (G-band)",
+          "vibrational_mode": "E2g in-plane stretching mode of sp2 carbon atoms",
+          "rationale": "The frequency at 1579.94 cm\u207b\u00b9 is characteristic of the G-band in graphitic materials, representing the in-plane vibration of sp2-bonded carbon atoms in aromatic rings. The relatively broad FWHM (32.54 cm\u207b\u00b9) suggests some structural disorder or defects in the graphitic structure.",
+          "literature_reference": "Ferrari, A.C. & Robertson, J. (2000). Physical Review B 61, 14095-14107. DOI: 10.1103/PhysRevB.61.14095"
+        },
+        {
+          "rank": 2,
+          "compound": "Amorphous carbon",
+          "vibrational_mode": "C=C stretching vibrations in sp2 clusters",
+          "rationale": "Amorphous carbon films show a broad G-band around 1580 cm\u207b\u00b9 due to C=C stretching in sp2-bonded carbon clusters. The significant peak width is consistent with the structural disorder typical of amorphous carbon materials.",
+          "literature_reference": "Casiraghi, C. et al. (2005). Physical Review B 72, 085401. DOI: 10.1103/PhysRevB.72.085401"
+        },
+        {
+          "rank": 3,
+          "compound": "Carbon nanotubes",
+          "vibrational_mode": "Tangential mode (G-band) of carbon nanotubes",
+          "rationale": "Single-walled carbon nanotubes exhibit a G-band around 1580 cm\u207b\u00b9 corresponding to tangential vibrations of carbon atoms. However, CNTs typically show a narrower linewidth and may exhibit splitting, making this assignment less likely given the observed FWHM.",
+          "literature_reference": "Dresselhaus, M.S. et al. (2005). Physics Reports 409, 47-99. DOI: 10.1016/j.physrep.2004.10.006"
+        }
+      ],
+      "final_assignment": "Graphitic carbon (G-band)",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The peak at 1579.94 cm\u207b\u00b9 with moderate intensity and relatively broad linewidth is most consistent with the G-band of graphitic carbon materials, representing sp2 carbon vibrations in aromatic structures.",
+        "key_literature_findings": "Extensive literature confirms that the G-band appears around 1580 cm\u207b\u00b9 in various carbon materials. Ferrari and Robertson's seminal work established the relationship between G-band position, width, and carbon structure disorder.",
+        "alternative_considerations": "While amorphous carbon and carbon nanotubes also show peaks in this region, the specific frequency and linewidth characteristics favor graphitic carbon assignment. The absence of a clear D-band discussion limits definitive structural characterization."
+      },
+      "references": [
+        "Ferrari, A.C. & Robertson, J. (2000). Interpretation of Raman spectra of disordered and amorphous carbon. Physical Review B 61, 14095-14107.",
+        "Casiraghi, C., Ferrari, A.C., & Robertson, J. (2005). Raman spectroscopy of hydrogenated amorphous carbons. Physical Review B 72, 085401.",
+        "Dresselhaus, M.S., Dresselhaus, G., Saito, R., & Jorio, A. (2005). Raman spectroscopy of carbon nanotubes. Physics Reports 409, 47-99."
+      ],
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094,
+      "peak_index": 0
+    },
+    {
+      "peak_frequency": 2670.19,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphite/Carbon materials (D' band)",
+          "vibrational_mode": "D' band - disorder-induced overtone of D band, second-order scattering process",
+          "rationale": "The frequency at 2670 cm\u207b\u00b9 corresponds to the D' band in carbon materials, which appears around 2650-2700 cm\u207b\u00b9. This band is an overtone of the D band (~1350 cm\u207b\u00b9) and indicates structural disorder in graphitic carbon. The relatively broad FWHM (49.73 cm\u207b\u00b9) is consistent with disordered carbon structures.",
+          "literature_reference": "Ferrari, A.C. & Robertson, J. (2000). Physical Review B 61, 14095-14107. DOI: 10.1103/PhysRevB.61.14095"
+        },
+        {
+          "rank": 2,
+          "compound": "Diamond-like carbon (DLC)",
+          "vibrational_mode": "C-H stretching vibrations in sp\u00b3 hybridized carbon",
+          "rationale": "DLC materials can exhibit Raman bands in the 2600-2800 cm\u207b\u00b9 region due to C-H stretching modes. The frequency and bandwidth are consistent with hydrogenated amorphous carbon structures containing sp\u00b3 bonded carbon atoms.",
+          "literature_reference": "Casiraghi, C. et al. (2005). Physical Review B 72, 085401. DOI: 10.1103/PhysRevB.72.085401"
+        },
+        {
+          "rank": 3,
+          "compound": "Organic compounds with C-H stretching",
+          "vibrational_mode": "Symmetric C-H stretching in alkyl chains or aromatic systems",
+          "rationale": "Various organic compounds exhibit C-H stretching vibrations in the 2600-2800 cm\u207b\u00b9 range. However, this frequency is somewhat lower than typical alkyl C-H stretches (2850-2950 cm\u207b\u00b9), making it less likely unless there are specific electronic or structural effects.",
+          "literature_reference": "Socrates, G. (2001). Infrared and Raman Characteristic Group Frequencies. John Wiley & Sons, Chichester."
+        }
+      ],
+      "final_assignment": "Graphite/Carbon materials (D' band)",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The peak at 2670.19 cm\u207b\u00b9 with moderate intensity and relatively broad FWHM is most characteristic of the D' band in carbon materials, representing disorder-induced second-order Raman scattering in graphitic structures.",
+        "key_literature_findings": "Extensive literature on carbon Raman spectroscopy confirms that the D' band appears around 2650-2700 cm\u207b\u00b9 and is directly related to structural disorder in graphitic materials. The bandwidth and frequency are well-documented for various carbon allotropes and nanostructures.",
+        "alternative_considerations": "While DLC materials and organic C-H stretches are possible, the specific frequency and bandwidth characteristics strongly favor the carbon D' band assignment. The frequency is too low for typical organic C-H stretches and the bandwidth is more consistent with carbon materials than with well-defined molecular vibrations."
+      },
+      "references": [
+        "Ferrari, A.C. & Robertson, J. (2000). Interpretation of Raman spectra of disordered and amorphous carbon. Physical Review B 61, 14095-14107.",
+        "Casiraghi, C., Ferrari, A.C., & Robertson, J. (2005). Raman spectroscopy of hydrogenated amorphous carbons. Physical Review B 72, 085401.",
+        "Socrates, G. (2001). Infrared and Raman Characteristic Group Frequencies: Tables and Charts, 3rd Edition. John Wiley & Sons, Chichester."
+      ],
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538,
+      "peak_index": 1
+    }
+  ],
+  "metadata": {
+    "model": "claude-sonnet-4-20250514",
+    "temperature": 0.3,
+    "total_peaks": 2,
+    "analysis_timestamp": "2025-08-06 12:31:29",
+    "prompt_version": "enhanced_with_literature"
+  }
+}

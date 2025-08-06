@@ -1,0 +1,31 @@
+{
+  "identified_material": "Graphene/Graphitic carbon",
+  "confidence": "medium",
+  "supporting_peaks": 1,
+  "total_analyzed_peaks": 2,
+  "agreement_percentage": 50.0,
+  "detailed_analysis": {
+    "primary_assignments": {
+      "Graphene/Graphitic carbon": 1,
+      "Sulfur-containing compounds (R-SH thiol)": 1
+    },
+    "all_detected_compounds": {
+      "Graphene/Graphitic carbon": 1,
+      "Carbon nanotubes (CNTs)": 1,
+      "Polycyclic aromatic hydrocarbons (PAHs)": 1,
+      "Sulfur-containing compounds (R-SH thiol)": 1,
+      "Deuterated compounds (C-D or O-D)": 1,
+      "Boron hydride compounds (B-H)": 1
+    },
+    "confidence_distribution": {
+      "high": 1,
+      "medium": 1
+    }
+  },
+  "summary_text": "Based on Raman spectroscopic analysis of 2 peaks, the sample is most likely **Graphene/Graphitic carbon** with moderate confidence. 1 out of 2 peaks (50.0%) support this identification. Alternative possibilities include: Sulfur-containing compounds (R-SH thiol) (1 peaks).",
+  "analysis_metadata": {
+    "timestamp": "2025-08-06 12:29:15",
+    "successful_peak_analyses": 2,
+    "failed_analyses": 0
+  }
+}

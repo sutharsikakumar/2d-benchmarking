@@ -1,0 +1,95 @@
+{
+  "peaks_analysis": [
+    {
+      "peak_frequency": 1579.94,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphite/Graphene",
+          "vibrational_mode": "G-band (tangential mode)",
+          "rationale": "Characteristic first-order Raman mode representing in-plane vibrations of sp2 carbon atoms in hexagonal lattice structure",
+          "literature_reference": "Ferrari, A.C. et al. (2006). Physical Review Letters, 97(18), 187401. DOI: 10.1103/PhysRevLett.97.187401"
+        },
+        {
+          "rank": 2,
+          "compound": "Amorphous Carbon",
+          "vibrational_mode": "Disordered carbon stretching mode",
+          "rationale": "Similar spectral position indicating presence of sp2 carbon clusters with structural disorder",
+          "literature_reference": "Tuinstra, F. & Koenig, J.L. (1970). Journal of Chemical Physics, 53(3), 1126-1130. DOI: 10.1063/1.1674108"
+        },
+        {
+          "rank": 3,
+          "compound": "Carbon Nanotubes",
+          "vibrational_mode": "Tangential mode of carbon nanostructures",
+          "rationale": "Consistent peak position for radial breathing modes in single-wall carbon nanotubes",
+          "literature_reference": "Dresselhaus, M.S. et al. (2005). Carbon, 43(8), 1731-1742. DOI: 10.1016/j.carbon.2005.02.008"
+        }
+      ],
+      "final_assignment": "Graphite/Graphene",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "Peak at 1579.94 cm\u207b\u00b9 strongly indicates sp2 carbon system with high structural order",
+        "key_literature_findings": "Consistent with well-established G-band characteristics of graphitic carbon materials",
+        "alternative_considerations": "Slight variations could indicate structural modifications or presence of defects"
+      },
+      "references": [
+        "Ferrari, A.C. et al. (2006). Physical Review Letters, 97(18), 187401.",
+        "Tuinstra, F. & Koenig, J.L. (1970). Journal of Chemical Physics, 53(3), 1126-1130.",
+        "Dresselhaus, M.S. et al. (2005). Carbon, 43(8), 1731-1742."
+      ],
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094,
+      "peak_index": 0
+    },
+    {
+      "peak_frequency": 2670.19,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphene/Graphite",
+          "vibrational_mode": "D' (disorder-induced) peak",
+          "rationale": "Characteristic peak associated with sp2 carbon materials, representing a breathing mode of six-atom rings involving defects and disorder in the carbon lattice",
+          "literature_reference": "Ferrari, A.C. et al. (2006). Physical Review Letters, 97(26), 267401. DOI: 10.1103/PhysRevLett.97.267401"
+        },
+        {
+          "rank": 2,
+          "compound": "Carbon Nanotubes",
+          "vibrational_mode": "G' (second-order) overtone peak",
+          "rationale": "High-frequency peak characteristic of sp2 carbon nanomaterials, sensitive to layer number and structural defects in carbon nanostructures",
+          "literature_reference": "Dresselhaus, M.S. et al. (2010). Carbon, 48(8), 2297-2322. DOI: 10.1016/j.carbon.2010.03.058"
+        },
+        {
+          "rank": 3,
+          "compound": "Diamond-like Carbon",
+          "vibrational_mode": "Overtone of sp3 carbon bonding",
+          "rationale": "High-frequency peak potentially related to sp3 carbon bonding configurations in amorphous carbon materials",
+          "literature_reference": "Casiraghi, C. et al. (2005). Diamond and Related Materials, 14(9), 1464-1470. DOI: 10.1016/j.diamond.2005.03.032"
+        }
+      ],
+      "final_assignment": "Graphene/Graphite",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "Peak at 2670.19 cm\u207b\u00b9 is characteristic of sp2 carbon materials, most likely representing the D' peak in graphene or graphitic structures",
+        "key_literature_findings": "Consistent with established Raman spectroscopy of carbon nanomaterials, showing characteristic high-frequency peaks associated with carbon lattice vibrations",
+        "alternative_considerations": "Peak could represent variations in carbon nanostructures, with slight shifts potentially indicating structural differences"
+      },
+      "references": [
+        "Ferrari, A.C. et al. (2006). Physical Review Letters, 97(26), 267401.",
+        "Dresselhaus, M.S. et al. (2010). Carbon, 48(8), 2297-2322.",
+        "Casiraghi, C. et al. (2005). Diamond and Related Materials, 14(9), 1464-1470."
+      ],
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538,
+      "peak_index": 1
+    }
+  ],
+  "metadata": {
+    "model": "claude-3-5-haiku-latest",
+    "temperature": 0.3,
+    "total_peaks": 2,
+    "analysis_timestamp": "2025-08-06 12:37:08",
+    "prompt_version": "enhanced_with_literature"
+  }
+}

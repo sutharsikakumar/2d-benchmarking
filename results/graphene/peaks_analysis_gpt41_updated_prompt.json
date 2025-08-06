@@ -1,0 +1,95 @@
+{
+  "peaks_analysis": [
+    {
+      "peak_frequency": 1579.94,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphite/Graphene",
+          "vibrational_mode": "G band (E2g in-plane C\u2013C stretching)",
+          "rationale": "The 1579.94 cm\u207b\u00b9 peak closely matches the G band of sp2 carbon materials such as graphite and graphene, which is attributed to the E2g phonon at the Brillouin zone center. This band is a signature feature of graphitic carbon and is typically observed in the 1575\u20131585 cm\u207b\u00b9 range.",
+          "literature_reference": "Ferrari & Robertson (2000). Interpretation of Raman spectra of disordered and amorphous carbon. Phys. Rev. B, 61(20), 14095\u201314107. https://doi.org/10.1103/PhysRevB.61.14095"
+        },
+        {
+          "rank": 2,
+          "compound": "Benzene",
+          "vibrational_mode": "C=C ring stretching (\u03bd8a mode)",
+          "rationale": "Benzene and aromatic rings exhibit a strong Raman band near 1580 cm\u207b\u00b9 due to symmetric C=C stretching within the aromatic ring. This mode is prominent in pure benzene and related aromatic compounds.",
+          "literature_reference": "Socrates, G. (2004). Infrared and Raman Characteristic Group Frequencies: Tables and Charts (3rd Ed.). Wiley."
+        },
+        {
+          "rank": 3,
+          "compound": "Polyaromatic Hydrocarbons (e.g., Naphthalene)",
+          "vibrational_mode": "Aromatic C=C stretching",
+          "rationale": "Polyaromatic hydrocarbons such as naphthalene and anthracene display strong Raman bands in the 1570\u20131600 cm\u207b\u00b9 region, corresponding to aromatic C=C stretching. However, the intensity and exact position can vary with molecular structure and substitution.",
+          "literature_reference": "Sadezky et al. (2005). Raman microspectroscopy of soot and related carbonaceous materials: Spectral analysis and structural information. Carbon, 43(8), 1731\u20131742. https://doi.org/10.1016/j.carbon.2005.02.018"
+        }
+      ],
+      "final_assignment": "Graphite/Graphene",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The observed peak at 1579.94 cm\u207b\u00b9 with high intensity and moderate FWHM is characteristic of the G band in sp2 carbon materials, particularly graphite and graphene. This feature is a well-established marker for graphitic domains.",
+        "key_literature_findings": "Ferrari & Robertson (2000) and Sadezky et al. (2005) confirm the assignment of the G band in the 1575\u20131585 cm\u207b\u00b9 region for graphite and related materials. The RRUFF and NIST databases also list this frequency as the G band for sp2 carbon.",
+        "alternative_considerations": "Benzene and polyaromatic hydrocarbons also show strong bands near this region due to aromatic C=C stretching. However, their spectral context and band shapes differ, and the high intensity and FWHM observed here are more consistent with extended sp2 carbon networks than with discrete aromatic molecules."
+      },
+      "references": [
+        "Ferrari, A. C., & Robertson, J. (2000). Interpretation of Raman spectra of disordered and amorphous carbon. Physical Review B, 61(20), 14095\u201314107. https://doi.org/10.1103/PhysRevB.61.14095",
+        "Socrates, G. (2004). Infrared and Raman Characteristic Group Frequencies: Tables and Charts (3rd Ed.). Wiley.",
+        "Sadezky, A., Muckenhuber, H., Grothe, H., Niessner, R., & P\u00f6schl, U. (2005). Raman microspectroscopy of soot and related carbonaceous materials: Spectral analysis and structural information. Carbon, 43(8), 1731\u20131742. https://doi.org/10.1016/j.carbon.2005.02.018"
+      ],
+      "position": 1579.93547,
+      "intensity": 6248.050577891068,
+      "whm": 32.53543253957094,
+      "peak_index": 0
+    },
+    {
+      "peak_frequency": 2670.19,
+      "assignments": [
+        {
+          "rank": 1,
+          "compound": "Graphite (Graphene-derived materials)",
+          "vibrational_mode": "2D (G' band) overtone of the D band (second-order two-phonon process)",
+          "rationale": "The 2D band near 2670 cm\u207b\u00b9 is a well-established signature of graphitic carbon, particularly graphene and graphite. It arises from a second-order overtone of the D band and is prominent even in defect-free samples. The observed FWHM and high intensity are consistent with few-layer graphene or graphite.",
+          "literature_reference": "Ferrari et al. (2006). 'Raman Spectrum of Graphene and Graphene Layers.' Physical Review Letters, 97(18), 187401. https://doi.org/10.1103/PhysRevLett.97.187401"
+        },
+        {
+          "rank": 2,
+          "compound": "Carbon Nanotubes (CNTs)",
+          "vibrational_mode": "2D (G' band) overtone of the D band (second-order two-phonon process)",
+          "rationale": "CNTs exhibit a strong 2D band in the 2650\u20132700 cm\u207b\u00b9 region, similar to graphite, due to their graphitic structure. The band shape and position can vary with tube diameter and chirality, but the assignment is less likely than graphite due to typical differences in FWHM and intensity.",
+          "literature_reference": "Dresselhaus et al. (2010). 'Raman spectroscopy of carbon nanotubes.' Physics Reports, 409(2), 47-99. https://doi.org/10.1016/j.physrep.2004.02.006"
+        },
+        {
+          "rank": 3,
+          "compound": "Polycyclic Aromatic Hydrocarbons (PAHs)",
+          "vibrational_mode": "Aromatic C\u2013H stretching overtone or combination band",
+          "rationale": "Some PAHs can show weak overtones or combination bands in the 2600\u20132700 cm\u207b\u00b9 region, but these are typically much weaker and broader than the observed peak, and rarely reach such high intensity.",
+          "literature_reference": "Socrates, G. (2004). 'Infrared and Raman Characteristic Group Frequencies: Tables and Charts.' 3rd Edition, Wiley. (See Table 8.2, Aromatic Overtones)"
+        }
+      ],
+      "final_assignment": "Graphite (Graphene-derived materials)",
+      "confidence_level": "high",
+      "summary": {
+        "analysis_overview": "The peak at 2670.19 cm\u207b\u00b9 with high intensity and moderate FWHM is characteristic of the 2D (G') band in graphitic carbon materials, particularly graphene and graphite. This band is a second-order overtone of the D band and is a key fingerprint for these materials.",
+        "key_literature_findings": "Ferrari et al. (2006) and the RRUFF/NIST databases consistently report the 2D band for graphite/graphene in the 2660\u20132700 cm\u207b\u00b9 region with similar intensity and FWHM. The band is less prominent in CNTs and PAHs, with differences in shape and intensity.",
+        "alternative_considerations": "While CNTs and PAHs can show features in this region, their Raman signatures differ in band shape, width, and intensity. CNTs typically have a broader or split 2D band due to tube diameter effects, and PAH overtones are much weaker, making them less likely assignments."
+      },
+      "references": [
+        "Ferrari, A. C., Meyer, J. C., Scardaci, V., Casiraghi, C., Lazzeri, M., Mauri, F., ... & Geim, A. K. (2006). Raman Spectrum of Graphene and Graphene Layers. Physical Review Letters, 97(18), 187401. https://doi.org/10.1103/PhysRevLett.97.187401",
+        "Dresselhaus, M. S., Jorio, A., Saito, R., & Dresselhaus, G. (2010). Raman spectroscopy of carbon nanotubes. Physics Reports, 409(2), 47-99. https://doi.org/10.1016/j.physrep.2004.02.006",
+        "Socrates, G. (2004). Infrared and Raman Characteristic Group Frequencies: Tables and Charts. 3rd Edition, Wiley."
+      ],
+      "position": 2670.18942,
+      "intensity": 10445.181805437953,
+      "whm": 49.7299285661538,
+      "peak_index": 1
+    }
+  ],
+  "metadata": {
+    "model": "gpt-4.1",
+    "temperature": 0.3,
+    "total_peaks": 2,
+    "analysis_timestamp": "2025-08-06 11:23:15",
+    "prompt_version": "enhanced_with_literature"
+  }
+}
